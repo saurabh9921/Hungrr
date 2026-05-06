@@ -1,0 +1,12 @@
+# robots.txt for Hungrr
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /private/
+
+# Specify sitemap location
+Sitemap: https://hungrr.shop/sitemap.xml
+

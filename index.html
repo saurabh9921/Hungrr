@@ -12,11 +12,99 @@
   <meta name="author" content="Hungrr" />
   <meta name="robots" content="index, follow" />
   <meta name="theme-color" content="#FF5500" />
+
+  <!-- Open Graph Tags for Social Sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Hungrr – Feed Your Hunger Instantly | Kagal's First Local Food Delivery" />
+  <meta property="og:description" content="Hungrr is Kagal's first local food delivery platform. Order from nearby kitchens & street food vendors. Fast, fresh, and delivered hot to your door." />
+  <meta property="og:image" content="https://hungrr.shop/Hunger.png" />
+  <meta property="og:url" content="https://hungrr.shop" />
+  <meta property="og:site_name" content="Hungrr" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Hungrr – Feed Your Hunger Instantly | Kagal's First Local Food Delivery" />
+  <meta name="twitter:description" content="Hungrr is Kagal's first local food delivery platform. Order from nearby kitchens & street food vendors. Fast, fresh, and delivered hot to your door." />
+  <meta name="twitter:image" content="https://hungrr.shop/Hunger.png" />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://hungrr.shop" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
     rel="stylesheet" />
+
+  <!-- JSON-LD Schema Markup for Local Food Delivery Business -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Hungrr",
+      "image": "https://hungrr.shop/Hunger.png",
+      "description": "Kagal's first local food delivery platform",
+      "url": "https://hungrr.shop",
+      "telephone": "+91-9XXX-XXXXX",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Kagal",
+        "addressLocality": "Kagal",
+        "addressRegion": "Maharashtra",
+        "addressCountry": "India"
+      },
+      "sameAs": [
+        "https://www.facebook.com/hungrr",
+        "https://www.instagram.com/hungrr",
+        "https://twitter.com/hungrr"
+      ],
+      "priceRange": "$",
+      "areaServed": {
+          "@type": "Place",
+          "name": "Kagal, Maharashtra, India"
+        }
+    }
+  </script>
+
+  <!-- JSON-LD Schema for Food Delivery Service -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Food Delivery Service",
+      "description": "Fast and fresh food delivery from local kitchens and street food vendors",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Hungrr"
+      },
+      "areaServed": "Kagal, Maharashtra, India",
+      "servesCuisine": ["Indian", "Street Food"],
+      "availableLanguage": "en"
+    }
+  </script>
+
+  <!-- JSON-LD Schema for Organization -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Hungrr",
+      "url": "https://hungrr.shop",
+      "logo": "https://hungrr.shop/Hunger.png",
+      "description": "Kagal's first local food delivery platform connecting customers with nearby kitchens and street food vendors",
+      "sameAs": [
+        "https://www.facebook.com/hungrr",
+        "https://www.instagram.com/hungrr",
+        "https://twitter.com/hungrr"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "availableLanguage": ["en"]
+      }
+    }
+  </script>
 
   <style>
     @font-face {
